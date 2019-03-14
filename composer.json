@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "sowhat\\phpclouds\\": "src/ppt/phpclouds"//前面是命名空间，后面是目录
+            "sowhat\\phpclouds\\": "src/ppt/phpclouds"
         }
     }
 }
