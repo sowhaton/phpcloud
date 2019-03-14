@@ -8,5 +8,11 @@ class cloud {
 
 		return "cloud-play";
 	}
+
+
+	public static function stop() {
+
+	    return 'stop cloud';
+    }
 	
 }
