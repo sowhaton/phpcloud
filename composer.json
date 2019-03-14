@@ -1,0 +1,25 @@
+{
+    "name": "sowhat/phpclouds",
+    "description":  "my composer demo",
+    "keywords": ["yin32167"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "small deer",
+            "email": "11111@aliyun.com",
+            "homepage": "https://github.com/yin32167",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "sowhat\\phpclouds\\": "src/ppt/phpclouds"//前面是命名空间，后面是目录
+        }
+    }
+}
